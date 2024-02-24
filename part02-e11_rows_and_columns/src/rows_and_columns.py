@@ -3,10 +3,14 @@
 import numpy as np
 
 def get_rows(a):
-    return []
+    rows = [row for row in a]
+    return rows
+    
 
 def get_columns(a):
-    return []
+    columns = [row for row in a.T]
+    return columns
+
 
 def main():
     np.random.seed(0)
